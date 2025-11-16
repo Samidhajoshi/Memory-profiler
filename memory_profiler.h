@@ -1,5 +1,3 @@
-// ==================== MEMORY_PROFILER.H ====================
-// Save this as: memory_profiler.h
 
 #ifndef MEMORY_PROFILER_H
 #define MEMORY_PROFILER_H
@@ -311,3 +309,4 @@ void operator delete[](void* ptr) throw() {
 #define new new(__FILE__, __LINE__)
 
 #endif 
+
